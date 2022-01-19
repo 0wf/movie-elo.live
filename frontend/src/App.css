@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(243 244 246);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+  }
+}
+
+.font-link {
+  font-family: "Source Code Pro", monospace;
+}
+
+.font-rale {
+  font-family: "Source Code Pro", monospace;
+}
+
+.font-li {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-mont {
+  font-family: "Montserrat", sans-seri;
+}
+
+table,
+th,
+td {
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  tr:nth-child(even) {
+    background-color: rgb(40, 40, 40);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  tr:nth-child(odd) {
+    background-color: rgb(29, 29, 29);
+  }
+}
+
+table {
+  max-width: 90%;
+  background-color: #fafafa;
+}
+
+.table-style {
+  border-collapse: collapse;
+  max-width: 90%;
+  font-size: 0.9em;
+}
+
+th {
+  background-color: rgb(243 244 246);
+}
+
+@media (prefers-color-scheme: dark) {
+  th {
+    background-color: rgb(23, 23, 23);
+  }
+}
