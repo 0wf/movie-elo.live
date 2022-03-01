@@ -234,7 +234,9 @@ function AddMovies() {
                     {movie.title}
                   </h3>
                   <h2 className="font-li font-extrabold text-left pl-1">
-                    {movie.release_date.substring(0, 4)}
+                    {movie.release_date
+                      ? movie.release_date.substring(0, 4)
+                      : null}
                   </h2>
                 </div>
               );
